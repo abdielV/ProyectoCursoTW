@@ -1,15 +1,133 @@
 body {
-	margin: 0px;
-	padding: 0px;
-	background-color: #333333;
+	margin: 0;
+	padding: 0;
+	background-color: #222222;
 }
 
-nav {
+#cabecera {
+	margin: 0px;
+	padding: 0px;
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	background-color: #000000;
+	overflow: hidden;
+}
+
+#cabecera nav {
+	margin: 0px;
+	padding: 0px;
+}
+
+#cabecera nav ul {
+	margin: 0px;
+	padding: 0px 10px;
+	list-style: none;
+}
+
+#cabecera nav ul li {
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	font-family: sans-serif;
+	color: #BBBBBB;
+}
+
+#cabecera nav ul li:hover {
+	background-color: #111111;
 }
 
 #titulo {
+	font-size: 30px;
+	font-style: italic;
+	color: green;
+}
 
+#cabecera nav a {
+	font-size: 25px;
+	text-decoration: none;
+}
+
+#cabecera nav a:link {
+	color: #BBBBBB;
+}
+
+#cabecera nav a:visited {
+	color: #BBBBBB;
+}
+
+#cabecera nav a:hover {
+	color: white;
+}
+
+#cabecera nav a:active {
+	color: #BBBBBB;
+}
+
+#login {
+	height: 100%;
+	width: auto;
+	float: right;
+}
+
+.navButton {
+	height: auto;
+	width: auto;
+	padding: 5px;
+	margin: 10px;
+	background-color: #BBBBBB;
+	color: #222222;
+	font-size: 20px;
+	font-weight: bolder;
+	float: left;
+}
+
+.navButton:hover {
+	background-color: lightgray;
+}
+
+.navButton a {
+	text-decoration: none;
+}
+
+.navButton a:link {
+	color: #222222;
+}
+
+.navButton a:visited {
+	color: #222222;
+}
+
+.navButton a:hover {
+	color: darkgreen;
+}
+
+.navButton a:active {
+	color: #222222;
+}
+
+#bienvenida {
+	width: auto;
+	height: auto;
+	margin: 15px;
+	font-size: 18px;
+	color: #BBBBBB;
+}
+
+#userName {
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#cuerpo {
+	margin: 10px auto;
+	padding: 10px;
+	width: 80%;
+	height: 100%;
+	background-color: #111111;
+	color: #BBBBBB;
+}
+
+#cuerpo h1:hover {
+	color: green;
 }
